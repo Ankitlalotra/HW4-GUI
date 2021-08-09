@@ -1,0 +1,87 @@
+html {
+    background-color: #333333;
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    border-left: 2px solid #00f821;
+    border-right: 2px solid #00f821;
+    color: #000000;
+    margin: 0 auto;
+    max-width: 960px;
+    min-height: 100%;
+    min-width: 700px;
+    padding: 20px;
+    width: 65%;
+}
+
+html,
+body,
+input {
+    font: normal 16px/100% Arial, sans-serif;
+}
+
+
+/* Color and pixel setting for the blocks*/
+
+#form input[type='submit']:hover {
+    color: #ffffff;
+}
+
+#form input[type='submit']:active {
+    background-color: #000000;
+}
+
+#table {
+    border-collapse: collapse;
+    display: block;
+    max-height: 500px;
+    outline: 1px solid #d65f30;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#table tr:nth-child(even) td:nth-child(odd),
+#table tr:nth-child(odd) td:nth-child(even) {
+    /* lime green color for every other block  */
+    background-color: #00ff40;
+}
+
+#table th {
+    /* Color for the borders block purple*/
+    background-color: #8400ff;
+    color: #00ff40;
+    /* lime green for the numbers on the border blocks*/
+    margin: 0;
+}
+
+#table th,
+#table td {
+    /* the border blocks border*/
+    border: 2px solid #0084ff;
+    padding: 0.10em;
+}
+
+#form fieldset {
+    border: 1px solid #001aff;
+    margin-bottom: 20px;
+    padding: 10px 20px 15px 20px;
+}
+
+#form legend {
+    font-weight: bold;
+}
+
+#form input[type='number'] {
+    margin-right: 20px;
+}
+
+#form input[type='submit'] {
+    background-color: #ff0000;
+    border: 0;
+    color: #ffe600;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
